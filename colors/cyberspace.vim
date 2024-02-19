@@ -36,7 +36,7 @@ let s:cs.vermilion0     = ['#ff5b7f', 204]
 let s:cs.red0           = ['#af0000', 124]
 
 " green
-let s:cs.emeraldgreen0  = ['#05f0c1', 48]
+let s:cs.emeraldgreen0  = ['#c2fbe1', 48]
 let s:cs.lightgreen0    = ['#00ffaa', 49]
 " let s:cs.lightgreen0    = ['#90ee90', 49]
 let s:cs.green0         = ['#005f00', 22]
@@ -106,11 +106,11 @@ call s:hi('CyberSpaceVirtual', s:cs.palegreen0, s:cs.pink0, 'none')
 call s:hi('CyberSpaceSpellBad', s:cs.pink0, s:cs.fgnone, 'none')
 
 """ Todo
-call s:hi('CyberSpaceTodo', s:cs.pink0, s:cs.black0, 'bold')
+call s:hi('CyberSpaceTodo', s:cs.pink0, s:cs.emeraldgreen0, 'bold')
 
 """ Status Line
-call s:hi('CyberSpaceStatusLine', s:cs.deeppurple0, s:cs.white0, 'none')
-call s:hi('CyberSpaceStatusLineNC', s:cs.darkgray0, s:cs.white0, 'none')
+call s:hi('CyberSpaceStatusLine', s:cs.black0, s:cs.white0, 'none')
+call s:hi('CyberSpaceStatusLineNC', s:cs.emeraldgreen0, s:cs.white0, 'none')
 call s:hi('CyberSpaceWildMenu', s:cs.black0, s:cs.white0, 'none')
 
 """ Tab
@@ -144,7 +144,7 @@ call s:hi('CyberSpaceModeMsg', s:cs.bgnone, s:cs.fgnone, 'none')
 call s:hi('CyberSpaceSpecialKey', s:cs.bgnone, s:cs.darkgray0, 'none')
 
 """ Pmenu
-call s:hi('CyberSpacePmenu', s:cs.lightgreen0, s:cs.black0, 'none')
+call s:hi('CyberSpacePmenu', s:cs.black0, s:cs.emeraldgreen0, 'none')
 call s:hi('CyberSpacePmenuSel', s:cs.black0, s:cs.cyan0, 'none')
 
 """ Cursor
